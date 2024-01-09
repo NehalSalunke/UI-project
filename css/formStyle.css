@@ -1,0 +1,36 @@
+div {
+  margin: 10px;
+}
+.heading {
+  background-color: white;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+  border: 3px solid brown;
+  border-radius: 2em;
+  padding: 10px;
+  margin: 20px 50px;
+  text-align: center;
+}
+.btn {
+  padding: 10px;
+  margin: 10px 20px;
+  border: 2px solid gray;
+  border-radius: 1em;
+  font-size: large;
+}
+
+fieldset {
+  padding: 20px;
+  background-color: rgb(243, 229, 197);
+  border: 3px solid brown;
+  margin: 25px 450px;
+}
+
+legend {
+  background-color: rgb(248, 145, 82);
+  font-weight: 800;
+  font-size: xx-large;
+  padding: 5px 10px;
+  margin: 20px 115px;
+}

@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+/*Heading start*/
+.header {
+  background-color: #333333;
+  color: white;
+}
+.heading1 {
+  margin: 0px;
+  padding: 10px 8px;
+}
+.header span {
+  color: #f6811c;
+  font-size: 45px;
+}
+/*Heading end*/
+/*navigation start*/
+.container {
+  background-color: #666666;
+}
+.container .list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container .list li {
+  padding: 10px;
+  border: 1px solid #333333;
+  color: white;
+}
+.list li a {
+  color: #fff;
+  text-decoration: none;
+}
+/*navigation end*/
+
+/*main-body start*/
+.app-body a {
+  color: #f6811c;
+  text-decoration: none;
+}
+/*left section*/
+.app-body {
+  display: flex;
+}
+.app-body .left-section {
+  background-color: #fff;
+  width: 75%;
+  margin-bottom: 50px;
+}
+.app-body .left-section .card {
+  display: flex;
+  margin: 25px 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #666666;
+}
+.card .inner-container {
+  padding-left: 20px;
+}
+.card .inner-container p {
+  text-align: justify;
+  color: #797979;
+}
+
+/*right section*/
+.app-body .right-section {
+  background-color: #e5e5e5;
+  width: 25%;
+}
+.card1 h3 {
+  margin: 30px 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #666666;
+}
+.card1 ul {
+  list-style: none;
+}
+.card1 ul li {
+  padding-bottom: 10px;
+}
+.card1 ul li a {
+  text-decoration: none;
+}
+.card1 .para {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  color: #797979;
+}
+
+/*main-body end*/
+/*footer start*/
+.footer {
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+.footer p {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin: 0;
+}
+.footer p span {
+  color: #f6811c;
+}
+/*footer end*/
